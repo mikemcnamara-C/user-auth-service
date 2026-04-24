@@ -1,0 +1,18 @@
+info:
+  title: User Auth Service
+  description: Authentication and authorization service using JWT
+  x-cortex-tag: user-auth-service
+  x-cortex-type: service
+  x-cortex-owners:
+    - type: group
+      name: platform-team
+  x-cortex-tier: 1
+  x-cortex-slack:
+    channel: "#auth-alerts"
+  x-cortex-git:
+    github:
+      repo: mikemcnamara-C/user-auth-service
+  x-cortex-language: go
+  x-cortex-custom-metadata:
+    domain: identity
+    environment: production
